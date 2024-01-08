@@ -137,6 +137,10 @@ body {
     background: #F00;
     border: none;
 }
+.btn-place:hover{
+    background-color: white;
+    color: black;
+}
 
 /* coming soon styled */
 .coming-soon-container {
@@ -271,6 +275,10 @@ body {
     text-align: center;
     width: 30.80%;
 }
+.portfolio  img:hover{
+    border-radius: 50%;
+    animation: 5s infinite;
+}
 
 /* subscribe newsletter container */
 .email-container {
@@ -311,7 +319,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding: 25px 56px;
-    margin-left: 0;
+    margin-left: -5px;
     border: none;
 }
 
