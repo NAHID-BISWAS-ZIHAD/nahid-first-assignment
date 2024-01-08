@@ -66,7 +66,7 @@ body {
     margin-bottom: 0;
 }
 
-/* midnight category */
+/* midnight category styled */
 
 .midnight {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
@@ -107,4 +107,130 @@ body {
     font-weight: 500;
     border: none;
     background-color: transparent;
+}
+
+/* place and date styled */
+.place-container {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 140px;
+    padding: 100px 200px;
+    border-radius: 16px;
+}
+
+.place-color {
+    color: #F00;
+}
+
+.btn-place {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+}
+
+/* coming soon styled */
+.coming-soon-container {
+    display: flex;
+    margin: 120px 140px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+    gap: 24px;
+}
+
+.first-column-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.first-column-title-1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.first-column-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 24px;
+    max-width: 280px;
+}
+
+.second-column {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.second-column-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.third-column {
+    max-width: 280px;
+}
+
+.third-column-title {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.third-column-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* functional-container Styled */
+.functional-container {
+    text-align: center;
+    font-family: Inter;
+    margin: 120px 140px;
+}
+
+.functional-offer {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.functional-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.functional-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 28px;
 }
