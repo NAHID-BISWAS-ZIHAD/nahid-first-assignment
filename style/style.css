@@ -314,3 +314,52 @@ body {
     margin-left: 0;
     border: none;
 }
+
+/* footer styled */
+footer {
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.company-info-contact {
+    text-align: left;
+}
+
+.social-link {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.social-link a {
+    padding: 24px;
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.btn-unsubscribe {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
