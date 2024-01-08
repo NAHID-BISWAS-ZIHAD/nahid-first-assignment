@@ -234,3 +234,83 @@ body {
     font-weight: 500;
     margin-top: 28px;
 }
+
+/* Our Awesome Portfolio */
+.portfolio-container {
+    margin: 120px 140px;
+}
+
+.portfolio-header {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    max-width: 800px;
+}
+
+.portfolio>img {
+    margin: 0 24px 24px 0;
+    text-align: center;
+    width: 30.80%;
+}
+
+/* subscribe newsletter container */
+.email-container {
+    text-align: center;
+    padding: 80px 212px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px 140px;
+}
+
+.email-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.email-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email-input {
+    padding: 25px 100px 25px 30px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    border: none;
+    margin-right: 0;
+    font-size: 20px;
+}
+
+.btn-subscribe {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 56px;
+    margin-left: 0;
+    border: none;
+}
